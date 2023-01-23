@@ -23,15 +23,12 @@ lab2
 lab3
 - CNN(LeNet-5) for MNIST datasets
 - modified LeNet-5 for CIFAR-10 datasets
-
 - train model based on MNIST datasets and output accuracy
+- 
   $ python cnn.py mnist --option train
-
 - load pre-trained model, test and output accuracy
   $ python cnn.py mnist --option test
-
 - train model based on CIFAR-10 datasets and output accuracy
   $ python cnn.py cifar-10 --option train
-
 - load pre-trained model, test and output accuracy
   $ python cnn.py cifar-10 --option test
