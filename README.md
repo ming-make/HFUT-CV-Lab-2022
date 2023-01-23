@@ -26,8 +26,11 @@ lab3
 - train model based on MNIST datasets and output accuracy
 $ python cnn.py mnist --option train
 - load pre-trained model, test and output accuracy
+
 $ python cnn.py mnist --option test
 - train model based on CIFAR-10 datasets and output accuracy
+
 $ python cnn.py cifar-10 --option train
 - load pre-trained model, test and output accuracy
+
 $ python cnn.py cifar-10 --option test
