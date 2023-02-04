@@ -24,6 +24,7 @@ lab3
 - CNN(LeNet-5) for MNIST datasets
 - modified LeNet-5 for CIFAR-10 datasets
 - **train model based on MNIST datasets and output accuracy **
+
   ```bash
   python cnn.py mnist --option train
   ```
