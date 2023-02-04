@@ -1,5 +1,5 @@
 # HFUT_CV_LAB_2022
-Personal codes to labs from HFUT Computer Vision course
+Implementation for labs from HFUT Computer Vision course
 
 There are three labs during this course, as shown below:
 - lab1 : line detection based on Hough Transform
@@ -8,26 +8,51 @@ There are three labs during this course, as shown below:
 
 Description:
 
-lab1
-- hough transform
-- **run main.py**
-- test images in assets
-- result images in results
+## lab1
+Implement line detection algorithm based on hough transform.
 
-lab2
-- meanshift
-- **run meanshift.py**
-- test images in assets
-- result images in results
+```bash
+python main.py
+```
 
-lab3
+Test images in *assets* folder
+Results in *results* folder
+
+## lab2
+Implement image segmentation algorithm based on meanshift
+
+```bash
+python meanshift.py
+```
+
+Test images in *assets* folder
+Results in *results* folder
+
+## lab3
+Implement image identification algorithm based on CNN
 - CNN(LeNet-5) for MNIST datasets
 - modified LeNet-5 for CIFAR-10 datasets
-- **train model based on MNIST datasets and output accuracy **
 
-  ```bash
-  python cnn.py mnist --option train
-  ```
-- **load pre-trained model, test and output accuracy *$ python cnn.py mnist --option test***
-- **train model based on CIFAR-10 datasets and output accuracy *$ python cnn.py cifar-10 --option train***
-- **load pre-trained model, test and output accuracy *$ python cnn.py cifar-10 --option test***
+Train model based on MNIST datasets and output accuracy
+
+```bash
+python cnn.py mnist --option train
+```
+
+Load pre-trained model, test and output accuracy
+
+```basn
+python cnn.py mnist --option test
+```
+
+Train model based on CIFAR-10 datasets and output accuracy
+
+```bash
+python cnn.py cifar-10 --option train
+```
+
+Load pre-trained model, test and output accuracy
+
+```bash
+python cnn.py cifar-10 --option test
+```
