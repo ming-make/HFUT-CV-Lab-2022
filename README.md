@@ -8,6 +8,11 @@ There are three labs during this course, as shown below:
 
 Description:
 
+## Platform
+- Windows 10
+- Pycharm 2022.1
+- Python 3.8
+
 ## lab1
 Implement line detection algorithm based on hough transform.
 
