@@ -11,7 +11,7 @@ Description:
 ## lab1
 Implement line detection algorithm based on hough transform.
 
-```bash
+```python
 python main.py
 ```
 
@@ -21,7 +21,7 @@ Results in *results* folder
 ## lab2
 Implement image segmentation algorithm based on meanshift
 
-```bash
+```python
 python meanshift.py
 ```
 
@@ -35,24 +35,24 @@ Implement image identification algorithm based on CNN
 
 Train model based on MNIST datasets and output accuracy
 
-```bash
+```python
 python cnn.py mnist --option train
 ```
 
 Load pre-trained model, test and output accuracy
 
-```basn
+```python
 python cnn.py mnist --option test
 ```
 
 Train model based on CIFAR-10 datasets and output accuracy
 
-```bash
+```python
 python cnn.py cifar-10 --option train
 ```
 
 Load pre-trained model, test and output accuracy
 
-```bash
+```python
 python cnn.py cifar-10 --option test
 ```
