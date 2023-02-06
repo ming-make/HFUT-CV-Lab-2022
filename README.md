@@ -16,6 +16,10 @@ Description:
 ## lab1
 Implement line detection algorithm based on hough transform.
 
+These libraries are needed:
+- opencv-python 4.5.5.64
+- numpy 1.22.3
+
 ```shell
 python main.py
 ```
@@ -25,6 +29,11 @@ Results in *results* folder
 
 ## lab2
 Implement image segmentation algorithm based on meanshift
+
+These libraries are needed:
+- opencv-python 4.5.5.64
+- numpy 1.22.3
+- scipy 1.4.1
 
 ```shell
 python meanshift.py
@@ -37,6 +46,13 @@ Results in *results* folder
 Implement image identification algorithm based on CNN
 - CNN(LeNet-5) for MNIST datasets
 - modified LeNet-5 for CIFAR-10 datasets
+
+These libraries are needed:
+- matplotlib 3.5.1
+- numpy 1.22.3
+- sklearn 0.0
+- tensorflow 2.10.0
+- keras 2.10.0
 
 Train model based on MNIST datasets and output accuracy
 
