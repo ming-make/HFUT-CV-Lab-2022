@@ -2,9 +2,9 @@
 Implementation for labs from HFUT Computer Vision course
 
 There are three labs during this course, as shown below:
-- lab1 : line detection based on Hough Transform
-- lab2 : image segmentation based on any methods in CV
-- lab3 : image classification based on any methods in CV
+- Lab1 : Line detection based on Hough Transform
+- Lab2 : Image segmentation based on any methods in CV
+- Lab3 : Image classification based on any methods in CV
 
 Description:
 
