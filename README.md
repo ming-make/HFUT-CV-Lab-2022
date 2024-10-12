@@ -1,4 +1,4 @@
-# HFUT-CV-LAB-2022
+# HFUT CV LAB 2022
 Implementation for labs from HFUT Computer Vision course
 
 There are three labs during this course, as shown below:
